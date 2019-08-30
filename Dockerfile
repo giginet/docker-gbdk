@@ -1,4 +1,7 @@
 FROM ubuntu
+LABEL version="1.0"
+LABEL description="Docker image to build Gameboy ROMs with GBDK"
+LABEL maintainer="giginet <giginet.net@gmail.com>"
 SHELL ["/bin/bash", "-c"]
 
 RUN apt-get update
